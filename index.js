@@ -1,13 +1,16 @@
-// let num = 18
-//  if(num < 0){
-//     console.log("negative number")
-//  }
-//  else if (num == 0){
-//     console.log("Zero")
-//  }
-//  else{
-//     console.log("Positive number")
-//  }
+const prompt = require("prompt-sync")()
+
+let age = prompt("Enter age")
+
+ if(age < 0){
+    console.log("negative number")
+ }
+ else if (age == 0){
+    console.log("Zero")
+ }
+ else{
+    console.log("Positive number")
+ }
 
 let user = "hello my name is tushar"
 
@@ -48,3 +51,4 @@ let newarr = numbers.filter((x)=>{
 console.log(newarr)
 
 console.log(["hey"] == ["hey"])
+
