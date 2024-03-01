@@ -12,8 +12,6 @@
 let user = "hello my name is tushar"
 
 
-
-
 function camel(users){
    let arr = user.split(" ")
    var arr2 = Array()
