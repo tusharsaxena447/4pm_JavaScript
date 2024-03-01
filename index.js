@@ -48,3 +48,5 @@ let newarr = numbers.filter((x)=>{
    }
 })
 console.log(newarr)
+
+console.log(["hey"] == ["hey"])
