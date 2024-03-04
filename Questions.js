@@ -51,4 +51,30 @@ const fibbo = (num)=>{
     }
     return arr
 }
-console.log(fibbo(10))
+// console.log(fibbo(10))
+
+const power4 = (num)=>{
+    if(num%4!=0){
+        
+        return false
+    }else {
+        let flag = true
+        let i = 0
+        while(flag){
+            if (num < Math.pow(4,i)) {
+                
+                return false
+            }
+            if(Math.pow(4,i) == num && num<=Math.pow(4,i)){
+                return true
+                flag = false
+            }
+            else{
+                i+=1
+                
+            }
+        }
+    }
+}
+// console.log(power4(10))
+
