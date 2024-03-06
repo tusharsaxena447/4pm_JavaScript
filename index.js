@@ -1,4 +1,4 @@
-// const prompt = require("prompt-sync")()
+const prompt = require("prompt-sync")()
 
 // let age = prompt("Enter age")
 
@@ -52,22 +52,22 @@
 
 // console.log(["hey"] == ["hey"])
 
-let a = [1,1,1,2,2,2,2,4,4,4,4,3,4]
-let b = [5,6,6,8,9,9]
+// let a = [1,1,1,2,2,2,2,4,4,4,4,3,4]
+// let b = [5,6,6,8,9,9]
 
-let newarr = a.concat(b).sort()
-final = []
-for(let i=0; i<= newarr.length; i++) {
-   if (newarr[i] == newarr[i+1]){
-     continue
-   }
-   else{
-      final.push(newarr[i])
-   }
-}
+// let newarr = a.concat(b).sort()
+// final = []
+// for(let i=0; i<= newarr.length; i++) {
+//    if (newarr[i] == newarr[i+1]){
+//      continue
+//    }
+//    else{
+//       final.push(newarr[i])
+//    }
+// }
 // newarr.sort()
 
-console.log(final)
+// console.log(final)
 // let num = 18
 //  if(num < 0){
 //     console.log("negative number")
@@ -98,3 +98,35 @@ console.log(final)
 // })
 
 // console.log(new_data)
+
+const tree = ()=>{
+   let height = prompt("enter height  ")
+   if (height>=1){
+      let neck = prompt("short or long  ")
+      if (neck == "short"){
+         let nose = prompt("enter nose  ")
+         if (nose == "short"){
+            let habitat = prompt("land or water  ")
+               if (habitat=="land") return "Might be a rhino"   
+               else return "might be a hippo"        
+         }
+         else{
+            return "might be an elephant"
+         }
+         
+         }else{
+            return "might be a giraffe"
+      }
+   }
+   else{
+      squeak = prompt("squeak or cannot  ")
+      if (squeak == "cannot"){
+         return "might be a squirrel"
+      }
+      else{
+         return "might be a rat"
+      }
+   }
+}
+
+console.log(tree())
