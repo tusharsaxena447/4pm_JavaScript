@@ -80,7 +80,8 @@ const power4 = (num)=>{
 
 const yesterday_date = (d,m,y)=>{
    let m_arr = {1:31,2:28,32:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
-   if (y%4 == 0) m_arr[2] = 29
+   if (y%4 == 0 && y%100 != 0) m_arr[2] = 29
+   if (y%400 == 0 && y%100 == 0) m_arr[2] = 29
     if (d==1 && m!=1){
         d = m_arr[m-1]
         m = m-1
@@ -95,4 +96,4 @@ const yesterday_date = (d,m,y)=>{
  return [d,m,y]
 }
 
-console.log(yesterday_date(1,1,2023)) 
+console.log(yesterday_date(1,3,2000)) 
