@@ -5,10 +5,10 @@ function camel(str){
 
 function power4(num){
     if (num == 1) return true
-    if (num == 0) return false
-    if (num%4 != 0) return false
+    if (num == 0 || num%4 != 0) return false
+    
 
     return power4(num/4)
 }
 
-// console.log(power4(24))
+console.log(power4(64))
