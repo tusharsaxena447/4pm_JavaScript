@@ -1,5 +1,5 @@
 function camel(str){
-    return str.replace(/\b\w/g,l=> l.toUpperCase() )
+    return str.replace(/\b\w/g,l=> l.toUpperCase())
 }
 // console.log(camel("my name is tushar saxena")) 
 
