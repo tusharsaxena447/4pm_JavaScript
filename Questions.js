@@ -70,13 +70,13 @@ const power4 = (num)=>{
                 flag = false
             }
             else{
-                i+=1
+                i++
                 
             }
         }
     }
 }
-// console.log(power4(10))
+console.log(power4(64))
 
 const yesterday_date = (d,m,y)=>{
    let m_arr = {1:31,2:28,32:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
@@ -96,4 +96,4 @@ const yesterday_date = (d,m,y)=>{
  return [d,m,y]
 }
 
-console.log(yesterday_date(1,3,2000)) 
+// console.log(yesterday_date(1,3,2000)) 
