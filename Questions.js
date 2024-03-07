@@ -76,7 +76,7 @@ const power4 = (num)=>{
         }
     }
 }
-console.log(power4(64))
+// console.log(power4(64))
 
 const yesterday_date = (d,m,y)=>{
    let m_arr = {1:31,2:28,32:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
@@ -97,3 +97,12 @@ const yesterday_date = (d,m,y)=>{
 }
 
 // console.log(yesterday_date(1,3,2000)) 
+for (let i = 1; i <=10; i++) {
+    // console.log(i*2)    
+}
+
+let a = "amit"
+for (let index = 0; index < a.length; index++) {
+    const element = a[index];
+    console.log(element)
+}
