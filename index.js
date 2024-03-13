@@ -135,6 +135,17 @@ const tree = ()=>{
 console.log(a)
 var a = "tushar"
 // In JavaScript, hoisting refers to the built-in behavior of the language through which declarations of functions, variables, and classes are moved to the top of their scope – all before code execution. In turn, this allows us to use functions, variables, and classes before they are declared.
-
 // scope 
 // closure
+
+// objects-------------
+
+const obj = {
+   name: "tushar",
+   last : "saxena",
+   fullname : function(){
+      return (this.name + this.last)
+   }
+}
+
+console.log(obj.fullname())
