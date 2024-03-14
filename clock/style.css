@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/19/10/00/school-work-851328_960_720.jpg");
+  
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  table, th ,td , caption{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 1px 1px 10px blue, 1px 1px 20px blue;
+    border: 2px solid;
+    
+    padding: 10px;
+   background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    backdrop-filter: opacity(0.8);
+    
+  }
+  table{
+    
+    border-radius: 10px;
+    width: 25%;
+  }
+  
+  caption{  
+    border-radius: 10px;
+    margin: 5px
+  }
+  
+  #clock{
+    margin-top : 30%;
+  }
+  
+  
+  
+  
