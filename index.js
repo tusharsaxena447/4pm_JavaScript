@@ -158,5 +158,4 @@ const obj1  = {"name":"tushar",
 
 for (const iterator of Object.values(obj1)) {
    console.log(iterator)
-}
-
+   
