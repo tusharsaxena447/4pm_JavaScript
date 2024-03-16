@@ -97,6 +97,7 @@ function example() {
 }
 example();
 Ans) undefined
+     5
 
 23. What will be printed?
 function outer() {

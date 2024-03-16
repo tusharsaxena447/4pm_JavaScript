@@ -46,3 +46,12 @@ const number = (num)=>{
 }
 
 console.log(number(5))
+
+function example() {
+    console.log(a);
+    if (true) {
+    var a = 5;
+    }
+    console.log(a);
+   }
+   example()
