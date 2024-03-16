@@ -33,3 +33,16 @@ let c = a===b
 // console.log(a==b)
 // console.log(typeof(a))
 // console.log(typeof(typeof(a))) 
+
+const myArray = [10, 20, 30, 40, 50];
+for(let i=0; i< myArray.length; i++){
+    console.log(myArray[i])
+}
+
+const number = (num)=>{
+        if (num === 0) return "Zero"
+        if (num > 0) return "Positive"
+        if (num < 0) return "Negative"
+}
+
+console.log(number(5))
