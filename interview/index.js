@@ -47,11 +47,12 @@ const number = (num)=>{
 
 console.log(number(5))
 
-function example() {
-    console.log(a);
-    if (true) {
-    var a = 5;
+function outer() {
+    let x = 20;
+    function inner(y) {
+    return x + y;
     }
-    console.log(a);
+    return inner;
    }
-   example()
+   const closureFunction = outer();
+   console.log(closureFunction(5));

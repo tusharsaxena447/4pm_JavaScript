@@ -120,7 +120,7 @@ function example() {
  console.log(a, b, c);
 }
 example();
-Ans) 5,10,15
+Ans) 5,5,false
 
 25. Write a program that checks whether a given number is positive, negative, or zero.
 Ans) const number = (num)=>{
