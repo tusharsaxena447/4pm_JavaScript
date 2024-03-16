@@ -26,9 +26,9 @@ console.log(str1.split("").reverse().join("")===str1)
 arr.splice(0,0,"anaar")
 console.log(arr)
 
-let a = 5
-let b = "5"
-let c = a===b
+// let a = 5
+// let b = "5"
+// let c = a===b
 
 // console.log(a==b)
 // console.log(typeof(a))
@@ -47,12 +47,9 @@ const number = (num)=>{
 
 console.log(number(5))
 
-function outer() {
-    let x = 20;
-    function inner(y) {
-    return x + y;
-    }
-    return inner;
-   }
-   const closureFunction = outer();
-   console.log(closureFunction(5));
+var a = 10;
+function example() {
+ console.log(a);
+ var a = 5;
+}
+example();

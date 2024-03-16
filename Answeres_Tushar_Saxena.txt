@@ -78,7 +78,7 @@ function example() {
  var a = 5;
 }
 example();
-ans) 10
+ans) undefined
 
 B). What will be printed?
 console.log(foo());
