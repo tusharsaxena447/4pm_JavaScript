@@ -21,7 +21,15 @@ let str = "The Quick brown Fox Jumps Over The Lazy Dog brown BROWN";
 
 // arr.unshift("mango")
 let str1 = "racecar"
-// console.log(str1.split("").reverse().join("")===str1)
+console.log(str1.split("").reverse().join("")===str1)
 
 arr.splice(0,0,"anaar")
 console.log(arr)
+
+let a = 5
+let b = "5"
+let c = a===b
+
+// console.log(a==b)
+// console.log(typeof(a))
+// console.log(typeof(typeof(a))) 
