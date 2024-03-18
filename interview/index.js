@@ -49,7 +49,7 @@ console.log(number(5))
 
 var a = 10;
 function example() {
- console.log(a);
- var a = 5;
+    console.log(a);
+    // var a = 5;
 }
 example();
