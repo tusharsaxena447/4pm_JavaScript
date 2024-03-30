@@ -11,8 +11,7 @@ fetch('https://dummyjson.com/products')
         <td>${e.description}</td>
         <td>${e.price}</td>
         <td>${e.discountPercentage}</td>
-        </tr>
-        `
+        </tr>    `
     })
     alldata.innerHTML = result
 })
