@@ -4,3 +4,5 @@ map filter reduce - proper definetion
 read about hoisting closure and scope
 
 cALL,BIND,APPLY
+module scope
+lodash
