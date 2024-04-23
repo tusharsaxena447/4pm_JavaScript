@@ -25,7 +25,7 @@ let centre = []
 let radiuses = []
 function circle(x,y) {
   let radius = Math.floor(Math.random() * 100 + 10);
-  console.log(radius)
+  // console.log(radius)
   radiuses.push(radius/2)
   let btn = document.createElement("div");
   btn.style.width = `${radius}px`;
@@ -47,24 +47,25 @@ window.addEventListener("click", (e) => {
     counter++;
   if (counter === 2 ){
     circle(x,y)
-    console.log(centre)
+    // console.log(centre)
     let distance = Math.sqrt(((centre[3]-centre[1])**2)+((centre[2]-centre[0])**2))
-    console.log(distance)
-    console.log(radiuses)
+    // console.log(distance)
+    // console.log(radiuses)
     let inter = (radiuses[0]+radiuses[1])-distance
     if(inter > 0){
       console.log("intersects")
     }
+    centre = []
+    radiuses = []
   }
   else if (counter > 2) {
     document.body.innerHTML = "";
-    centre = []
-    radiuses = []
+    
+    
     
     counter = 1;
     circle(x,y);
-    console.log(centre)
-    console.log(radiuses)
+    
     // console.log(counter);
   } else {
     circle(x,y);
