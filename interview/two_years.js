@@ -59,10 +59,7 @@ window.addEventListener("click", (e) => {
     radiuses = []
   }
   else if (counter > 2) {
-    document.body.innerHTML = "";
-    
-    
-    
+    document.body.innerHTML = ""; 
     counter = 1;
     circle(x,y);
     
