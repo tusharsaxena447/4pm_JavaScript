@@ -6,3 +6,7 @@ read about hoisting closure and scope
 cALL,BIND,APPLY
 module scope
 lodash
+shallow vs deep 
+currying
+webpack 
+const with and without primitive

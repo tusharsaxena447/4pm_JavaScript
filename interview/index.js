@@ -11,7 +11,7 @@ const arr = ["Apple","Banana","litchi","grappes"]
 //     ul.appendChild(li)
 // })
 // document.body.appendChild(ul)
-let str = "The Quick brown Fox Jumps Over The Lazy Dog brown BROWN";
+// let str = "The Quick brown Fox Jumps Over The Lazy Dog brown BROWN";
 // let new_arr = arr.slice(0)
 // console.log(new_arr)
 
@@ -20,11 +20,11 @@ let str = "The Quick brown Fox Jumps Over The Lazy Dog brown BROWN";
 // console.log(match)
 
 // arr.unshift("mango")
-let str1 = "racecar"
-console.log(str1.split("").reverse().join("")===str1)
+// let str1 = "racecar"
+// console.log(str1.split("").reverse().join("")===str1)
 
-arr.splice(0,0,"anaar")
-console.log(arr)
+// arr.splice(0,0,"anaar")
+// console.log(arr)
 
 // let a = 5
 // let b = "5"
@@ -34,22 +34,44 @@ console.log(arr)
 // console.log(typeof(a))
 // console.log(typeof(typeof(a))) 
 
-const myArray = [10, 20, 30, 40, 50];
-for(let i=0; i< myArray.length; i++){
-    console.log(myArray[i])
+// const myArray = [10, 20, 30, 40, 50];
+// for(let i=0; i< myArray.length; i++){
+//     console.log(myArray[i])
+// }
+
+// const number = (num)=>{
+//         if (num === 0) return "Zero"
+//         if (num > 0) return "Positive"
+//         if (num < 0) return "Negative"
+// }
+
+// console.log(number(5))
+
+// var a = 10;
+// function example() {
+//     console.log(a);
+//     var a = 5;
+// }
+// example();
+
+// function foo(a,...rest){
+//     console.log(a,rest)
+// }
+// foo(1,2,3,4,5,6)
+
+async function fetched(url){
+    let res = await fetch(url)
+    const data = await res.json()
+    data.map((e)=>{
+        let div = document.createElement('div')
+        div.style.height = "50px"
+        
+        div.style.border = "2px solid black"
+        let h2 = document.createElement("h2")
+        h2.innerHTML = e.name
+        div.appendChild(h2)
+        document.body.appendChild(div)})
+        console.log(NaN===NaN)
 }
 
-const number = (num)=>{
-        if (num === 0) return "Zero"
-        if (num > 0) return "Positive"
-        if (num < 0) return "Negative"
-}
-
-console.log(number(5))
-
-var a = 10;
-function example() {
-    console.log(a);
-    // var a = 5;
-}
-example();
+fetched("https://jsonplaceholder.typicode.com/users")
