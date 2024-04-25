@@ -59,19 +59,31 @@ const arr = ["Apple","Banana","litchi","grappes"]
 // }
 // foo(1,2,3,4,5,6)
 
-async function fetched(url){
-    let res = await fetch(url)
-    const data = await res.json()
-    data.map((e)=>{
-        let div = document.createElement('div')
-        div.style.height = "50px"
+// async function fetched(url){
+//     let res = await fetch(url)
+//     const data = await res.json()
+//     data.map((e)=>{
+//         let div = document.createElement('div')
+//         div.style.height = "50px"
         
-        div.style.border = "2px solid black"
-        let h2 = document.createElement("h2")
-        h2.innerHTML = e.name
-        div.appendChild(h2)
-        document.body.appendChild(div)})
-        console.log(NaN===NaN)
+//         div.style.border = "2px solid black"
+//         let h2 = document.createElement("h2")
+//         h2.innerHTML = e.name
+//         div.appendChild(h2)
+//         document.body.appendChild(div)})
+//         console.log(NaN===NaN)
+// }
+
+// fetched("https://jsonplaceholder.typicode.com/users")
+
+{
+    let a = 1
+    let b = 2;
+
+    console.log(a);
+    console.log(b);
+
 }
 
-fetched("https://jsonplaceholder.typicode.com/users")
+    console.log(a);
+    console.log(b);
