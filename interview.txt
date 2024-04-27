@@ -2,7 +2,7 @@ diff b/w defined and not defined
 map filter reduce - proper definetion
 
 read about hoisting closure and scope
-
+let,const, var hosting
 cALL,BIND,APPLY
 module scope
 lodash

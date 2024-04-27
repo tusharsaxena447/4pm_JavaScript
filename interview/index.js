@@ -76,14 +76,18 @@ const arr = ["Apple","Banana","litchi","grappes"]
 
 // fetched("https://jsonplaceholder.typicode.com/users")
 
-{
-    let a = 1
-    let b = 2;
+// {
+//     let a = 1
+//     let b = 2;
 
-    console.log(a);
-    console.log(b);
+//     console.log(a);
+//     console.log(b);
 
-}
+// }
 
-    console.log(a);
-    console.log(b);
+//     console.log(a);
+//     console.log(b);
+
+console.log(a)
+
+const a = 5
