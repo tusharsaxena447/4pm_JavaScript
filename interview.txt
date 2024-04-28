@@ -10,3 +10,4 @@ shallow vs deep
 currying
 webpack 
 const with and without primitive
+cheeck Fetch and interview files

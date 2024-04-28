@@ -88,6 +88,14 @@ const arr = ["Apple","Banana","litchi","grappes"]
 //     console.log(a);
 //     console.log(b);
 
-console.log(a)
+// console.log(a)
 
-const a = 5
+// const a = 5
+
+// let arr2 = [1,2,3,4,5,6,7]
+// arr2[-1] = 0
+// console.log(arr2)
+// console.log(arr[-1])
+
+console.log(3+"3")
+console.log(3-"4")
