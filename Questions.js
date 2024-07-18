@@ -7,7 +7,7 @@ return Math.max(...numbers)
 // console.log(max_num_array([1,2,3,4,5,6,7,8])) 
 
 const palind = (str)=>{
-    return str == str.split("").reverse().join("")
+    return str === str.split("").reverse().join("")
 }
 
 // console.log(palind("tit"))
@@ -104,5 +104,5 @@ for (let i = 1; i <=10; i++) {
 let a = "amit"
 for (let index = 0; index < a.length; index++) {
     const element = a[index];
-    console.log(element)
+    // console.log(element)
 }
