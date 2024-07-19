@@ -97,5 +97,8 @@ const arr = ["Apple","Banana","litchi","grappes"]
 // console.log(arr2)
 // console.log(arr[-1])
 
-console.log(3+"3")
-console.log(3-"4")
+// console.log(3+"3")
+// console.log(3-"4")
+console.log(my)
+let my = 10
+console.log(my)
